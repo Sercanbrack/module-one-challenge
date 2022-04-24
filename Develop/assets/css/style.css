@@ -168,6 +168,7 @@ p {
     color: var(--white);
 }
 
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -227,10 +228,12 @@ p {
 @media (max-width: 992px) {
     header h1 {
         align-items: center;
+        margin-left: 30px;
     }
     nav {
         flex-direction: column;
-        align-items: right;
+        align-items: flex-end;
+        margin-right: 10px;
     }
     .material {
         flex-direction: column;
@@ -247,5 +250,32 @@ p {
 }
 
 @media (max-width: 786px) {
+    header section {
+        margin-right: 0px;
+    }
+    header h1 {
+        align-items: center;
+        margin-left: 10px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 auto;
+    }
 
+    .search-engine-optimization h2 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    
+    .online-reputation-management h2 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    
+    .social-media-marketing h2 {
+        margin-bottom: 10px;
+        font-size: 22px;
+
+    }
 }
