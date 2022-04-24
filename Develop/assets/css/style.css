@@ -66,6 +66,7 @@ p {
 }
 
 .hero {
+    display: flex;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -73,6 +74,12 @@ p {
     background-size: cover;
     background-position: center;
     resize: both;
+}
+
+.material {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .float-left {
@@ -87,14 +94,16 @@ p {
 
 .content {
     width: 75%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
 }
 
 .benefits {
+    display: flex;
+    flex-direction: column;
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
@@ -133,7 +142,7 @@ p {
 }
 
 .benefit-lead img {
-    display: block;
+    display: flex;
     margin: 10px auto;
     max-width: 150px;
 }
@@ -145,7 +154,7 @@ p {
 }
 
 .benefit-cost img {
-    display: block;
+    display: flex;
     margin: 10px auto;
     max-width: 150px;
 }
@@ -222,6 +231,21 @@ p {
     nav {
         flex-direction: column;
         align-items: right;
- 
     }
+    .material {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .benefits {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 786px) {
+
 }
