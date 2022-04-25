@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Creates a variable called --white, sets the variable to a white color*/
+:root {
+    --white: #ffffff
+}
+/*Sets background color of the content in the body tag*/
+body {
+    background-color: #d9dcd6;
+}
+/*Sets the font family, background/text color, and padding for the content in the header tag, and creates a flex box inside the header tag.*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: var(--white);
+}
+/*Moves the h1 section of the <header> tag to the start of the current flex box, and creates another flex box*/
+header h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 48px;
+}
+/*Sets the color of the letters "seo" in the logo*/
+header .seo {
+    color: #d9dcd6;
+}
+/*Sets the padding, margin, and font size/family of the links on the right side of the header*/
+header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*Creates a flex box in the nav section, wraps the content, creates a gap, and justifies the content to the end of the current flex box.*/
+nav { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px; 
+}
+/*Sets the styling for the links on the right side of the header.*/
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+/*Sets the font size of all text in <p> tags to 16px.*/
+p {
+    font-size: 16px;
+}
+/*Displays the background image, sets the maximum height to 800px, sets the width to 100% of the page, loads in the background image and positions it on the page.*/
+.hero {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*Creates a flex box in the "material" container and justifies the content so there's even spacing between each item in the box.*/
+.material {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*Floats an item to the left of its container.*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Floats an item to the right of its container.*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Sets the width of everything in the "content" container, creates a flex box in it with a direction of column, and sets a margin of 20px on the left.*/
+.content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+/*Creates a flex box in the "benefits" container with a direction of column, adds a margin of 20px on the right, adds 20px of padding,
+sets the width to 20% of the page, sets font family and background color.*/
+.benefits {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 20px;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*Sets the margin and color of the "benefit-lead" container*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: var(--white);
+}
+/*Sets the margin and color of the "benefit-brand" container*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: var(--white);
+}
+/*Sets the margin and color of the "benefit-cost" container*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: var(--white);
+}
+/*Sets the margin of the "benefit-lead" container and aligns the text inside it to the center.*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Sets the margin of the "benefit-brand" container and aligns the text inside it to the center.*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Sets the margin of the "benefit-cost" container and aligns the text inside it to the center.*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Displays the image in the "benefit-lead" container in a flex box and sets the margins and max width.*/
+.benefit-lead img {
+    display: flex;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Displays the image in the "benefit-brand" container in a flex box and sets the margins and max width.*/
+.benefit-brand img {
+    display: flex;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Displays the image in the "benefit-cost" container in a flex box and sets the margins and max width.*/
+.benefit-cost img {
+    display: flex;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Sets the bottom margin, padding, height, font family, background color, and text color of the text in the "search-engine-optimization" container.*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: var(--white);
+}
+/*Sets the bottom margin, padding, height, font family, background color, and text color of the text in the "online-reputation-management" container.*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: var(--white);
+}
+/*Sets the bottom margin, padding, height, font family, background color, and text color of the text in the "social-media-marketing" container.*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: var(--white);
+}
+/*Sets the max height of the image in the "search-engine-optimization" container to 200px.*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*Sets the max height of the image in the "online-reputation-management" container to 200px.*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*Sets the max height of the image in the "social-media-marketing" container to 200px.*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*Sets the margin and font size for h2 in the "search-engine-optimization" container.*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Sets the margin and font size for h2 in the "online-reputation-management" container.*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Sets the margin and font size for h2 in the "social-media-marketing" container.*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Sets the padding and font family of the footer, moves it to the bottom of the page, and aligns the text to the center.*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*Sets the font size of h2 in the "footer" container to 20px.*/
+.footer h2 {
+    font-size: 20px;
+}
+/*Adjusts the header h1, nav, "material" container, "content" container, and "benefits" container if the screen is smaller than 992px.*/  
+@media (max-width: 992px) {
+    /*Aligns the h1 section of the header to the center of its container, and gives it a 30px margin on the left.*/
+    header h1 {
+        align-items: center;
+        margin-left: 30px;
+    }
+    /*Changes the flex direction in the nav section to column, aligns the items to the end of the flex box, and gives it a 10px margin on the right.*/
+    nav {
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 10px;
+    }
+    /*Changes the flex direction in the "material" container to column, and aligns the items to the center.*/
+    .material {
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Sets the width of the items in the "content" container to fit 95% of the page, and centers the items inside.*/
+    .content {
+        width: 95%;
+        margin: 0 auto;
+    }
+    /*Sets the width of the items in the "benefits" container to fit 95% of the page, and centers the items inside.*/
+    .benefits {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+/*Adjusts the header section and h1, nav, p, "search-engine-optimization" h2, "online-reputation-management" h2, and "social-media-marketing" h2 if the screen is smaller than 786px.*/
+@media (max-width: 786px) {
+    /*Deletes the margin on the right of the section inside the <header> tag.*/
+    header section {
+        margin-right: 0px;
+    }
+    /*Aligns the items in the <h1> tag in the header to the center, and gives them a margin of 10px.*/
+    header h1 {
+        align-items: center;
+        margin-left: 10px;
+    }
+    /*Changes the flex direction in the nav section to column, aligns the items to the end of the flex box, deletes the margin, and centers the items.*/
+    nav {
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 auto;
+    }
+    /*Changes the font size of all text inside <p> tags to 14px.*/
+    p {
+        font-size: 14px;
+    }
+    /*Changes the bottom margin and font size of the h2 tag in the "search-engine-optimization" container.*/
+    .search-engine-optimization h2 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    /*Changes the bottom margin and font size of the h2 tag in the "online-reputation-management" container.*/
+    .online-reputation-management h2 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    /*Changes the bottom margin and font size of the h2 tag in the "social-media-marketing" container.*/
+    .social-media-marketing h2 {
+        margin-bottom: 10px;
+        font-size: 22px;
+
+    }
+}
