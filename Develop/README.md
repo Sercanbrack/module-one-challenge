@@ -18,8 +18,17 @@ https://github.com/Sercanbrack/module-one-challenge
 
 Everything should come preconfigured and work as intended.
 
-### Image and Link
+### Image Links
 
 Below are links to screenshots of the completed webpage.
-<img src="assets\screenshots\Web capture_24-4-2022_174647_127.0.0.1.jpeg" alt="Desktop view of site"/>
-<img src="assets\screenshots\Web capture_24-4-2022_174734_127.0.0.1.jpeg" alt="Mobile view of site"/>
+Desktop screenshot: https://github.com/Sercanbrack/module-one-challenge/blob/main/Develop/assets/screenshots/Web%20capture_24-4-2022_174647_127.0.0.1.jpeg?raw=true
+Mobile screenshot: https://github.com/Sercanbrack/module-one-challenge/blob/main/Develop/assets/screenshots/Web%20capture_24-4-2022_174734_127.0.0.1.jpeg?raw=true
+
+### Project Link
+
+Below is the link to the project's live URL on GitHub Pages.
+https://sercanbrack.github.io/module-one-challenge/
+
+### Author
+
+-Samuel Ercanbrack
